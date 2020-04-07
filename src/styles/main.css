@@ -1463,6 +1463,11 @@ audio {
     justify-content: space-evenly;
 }
 
+label {
+    margin-bottom: .5rem;
+}
+
 input {
     height: 2rem;
+    margin-bottom: 1rem;
 }

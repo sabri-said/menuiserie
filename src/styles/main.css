@@ -18,6 +18,12 @@ html {
     --var-warning-light: #fae575;
     --var-danger: #bf1a2f;
     --var-danger-light: #d05867;
+    /* COLORS CUSTOM */
+    --var-frost:#DDE2E3;
+    --var-lead:#9AACB8;
+    --var-burnt-amber:#B37C57;
+    --var-nightfall:#3C455C;
+    --var-bark:#60412B;
     /*OVERLAY COLOR SCHEME*/
     --opacity-super-high: .92;
     --opacity-high: .75;

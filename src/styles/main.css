@@ -1411,7 +1411,7 @@ audio {
 }
 
 .btn-primary {
-    background-color: var(--var-success);
+    background-color: var(--var-primary);
     color: var(--var-white);
 }
 

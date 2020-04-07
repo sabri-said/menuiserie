@@ -256,7 +256,7 @@ h6 {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 h2 {
@@ -1371,19 +1371,88 @@ audio {
 
 /* BUTTONS */
 
-.btn {
-    width: 8em;
-    height: 2em;
+.btn-sm,
+.btn-md,
+.btn-lg {
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    border-radius: .75rem;
 }
 
-.btn.btn-success {
+.btn-sm {
+    height: 1rem;
+    width: 8rem;
+    padding: 1rem;
+}
+
+.btn-md {
+    height: 3rem;
+    width: 12rem;
+}
+
+.btn-lg {
+    height: 3rem;
+    width: 16rem;
+}
+
+
+/*BUTTONS COLORS*/
+
+.btn-success {
     background-color: var(--var-success);
     color: var(--var-white);
 }
 
-.btn.btn-success:hover {
+.btn-success:hover {
     background-color: var(--var-success-light);
+}
+
+.btn-primary {
+    background-color: var(--var-success);
+    color: var(--var-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--var-primary-light);
+}
+
+.btn-secondary {
+    background-color: var(--var-secondary);
+    color: var(--var-white);
+}
+
+.btn-secondary:hover {
+    background-color: var(--var-secondary-light);
+}
+
+.btn-warning {
+    background-color: var(--var-warning);
+    color: var(--var-white);
+}
+
+.btn-warning:hover {
+    background-color: var(--var-warning-light);
+}
+
+.btn-danger {
+    background-color: var(--var-danger);
+    color: var(--var-white);
+}
+
+.btn-danger:hover {
+    background-color: var(--var-danger-light);
+}
+
+.btn-dark {
+    background-color: var(--var-dark);
+    color: var(--var-white);
+}
+
+.btn-warning:hover {
+    background-color: var(--var-dark-light);
 }
 
 

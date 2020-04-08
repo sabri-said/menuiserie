@@ -214,14 +214,20 @@ html {
 
 .bg-woods-shaving {
     background-image: url(../img/backgrounds/wood_shaving.jpg);
+    position: relative;
+    right: -50vw
 }
 
 .bg-hammer {
     background-image: url(../img/backgrounds/hammer.jpg);
+    position: relative;
+    left: -100vw
 }
 
 .bg-holding-tool {
     background-image: url(../img/backgrounds/person_holding_tool.jpg);
+    position: relative;
+    right: -150vw
 }
 
 

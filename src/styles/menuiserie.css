@@ -1,1 +1,20 @@
+/* COLORS */
+.frost {
+  background-color: var(--var-frost)
+}
 
+.lead {
+  background-color: var(--var-lead)
+}
+
+.burnt-amber {
+  background-color: var(--var-burnt-amber)
+}
+
+.nightfall {
+  background-color: var(--var-nightfall)
+}
+
+.bark {
+  background-color: var(--var-bark)
+}

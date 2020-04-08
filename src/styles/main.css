@@ -320,6 +320,7 @@ hr {
   font-size: 1.5rem;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
+  border-style: none;
 }
 
 input,

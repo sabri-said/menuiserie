@@ -212,29 +212,6 @@ html {
     background-image: url(../img/backgrounds/painting.jpg);
 }
 
-.bg-woods-shaving {
-    background-image: url(../img/backgrounds/wood_shaving.jpg);
-    position: relative;
-    right: -50vw
-}
-
-.bg-hammer {
-    background-image: url(../img/backgrounds/hammer.jpg);
-    position: relative;
-    left: -100vw
-}
-
-.bg-holding-tool {
-    background-image: url(../img/backgrounds/person_holding_tool.jpg);
-    position: relative;
-    right: -150vw
-}
-
-.bg-holding-tool iframe {
-    height: 100%;
-    width: 100%;
-}
-
 
 /*FONT COLOR*/
 
@@ -366,7 +343,10 @@ hr {
     padding: 0;
 }
 
-body {
+html,
+body,
+main,
+section {
     overflow-x: hidden;
 }
 
@@ -388,16 +368,6 @@ section {
 
 /*SECTIONS*/
 
-section {
-    height: 80vh;
-    width: 80%;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    margin-left: 10%;
-    margin-right: 10%;
-    position: relative;
-}
-
 section .overlay-light {
     position: absolute;
     top: 0;
@@ -405,6 +375,8 @@ section .overlay-light {
     height: 100%;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.66);
+    overflow-x: hidden;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
 }
@@ -486,6 +458,7 @@ footer {
     width: 100%;
     padding: 2rem;
     background-color: var(--var-frost);
+    overflow-x: hidden;
 }
 
 footer a,
@@ -516,6 +489,17 @@ footer ul li p {
     html {
         font-size: calc(var(--base-font-size)*.75);
     }
+    section {
+        height: 75vh;
+        width: 100%;
+        margin-top: 12.5vh;
+        margin-bottom: 12.5vh;
+        position: relative;
+        overflow: hidden;
+    }
+    .col.d-sm-xs-none {
+        display: none;
+    }
 }
 
 
@@ -524,6 +508,36 @@ footer ul li p {
 @media screen and (min-width:380px) and (max-width:599px) {
     html {
         font-size: calc(var(--base-font-size)*.75);
+    }
+    section {
+        height: 50vh;
+        width: 100%;
+        margin-top: 25vh;
+        margin-bottom: 25vh;
+        position: relative;
+        overflow: hidden;
+    }
+    .col.d-sm-xs-none {
+        display: none;
+    }
+    .bg-woods-shaving {
+        background-image: url(../img/backgrounds/wood_shaving.jpg);
+        position: relative;
+        right: -85vw
+    }
+    .bg-hammer {
+        background-image: url(../img/backgrounds/hammer.jpg);
+        position: relative;
+        left: -166vw
+    }
+    .bg-holding-tool {
+        background-image: url(../img/backgrounds/person_holding_tool.jpg);
+        position: relative;
+        right: -266vw
+    }
+    .bg-holding-tool iframe {
+        height: 100%;
+        width: 100%;
     }
 }
 
@@ -534,6 +548,36 @@ footer ul li p {
     html {
         font-size: calc(var(--base-font-size)*1);
     }
+    section {
+        height: 80vh;
+        width: 100%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        position: relative;
+        overflow: hidden;
+    }
+    .col.d-sm-xs-none {
+        display: none;
+    }
+    .bg-woods-shaving {
+        background-image: url(../img/backgrounds/wood_shaving.jpg);
+        position: relative;
+        right: -85vw
+    }
+    .bg-hammer {
+        background-image: url(../img/backgrounds/hammer.jpg);
+        position: relative;
+        left: -166vw
+    }
+    .bg-holding-tool {
+        background-image: url(../img/backgrounds/person_holding_tool.jpg);
+        position: relative;
+        right: -266vw
+    }
+    .bg-holding-tool iframe {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 
@@ -543,6 +587,35 @@ footer ul li p {
     html {
         font-size: calc(var(--base-font-size)*1.5);
     }
+    section {
+        height: 80vh;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        position: relative;
+        overflow: hidden;
+    }
+    .bg-woods-shaving {
+        background-image: url(../img/backgrounds/wood_shaving.jpg);
+        position: relative;
+        right: -70vw
+    }
+    .bg-hammer {
+        background-image: url(../img/backgrounds/hammer.jpg);
+        position: relative;
+        left: -133vw
+    }
+    .bg-holding-tool {
+        background-image: url(../img/backgrounds/person_holding_tool.jpg);
+        position: relative;
+        right: -200vw
+    }
+    .bg-holding-tool iframe {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 
@@ -551,6 +624,34 @@ footer ul li p {
 @media screen and (min-width:1280px) {
     html {
         font-size: calc(var(--base-font-size)*2);
+    }
+    section {
+        height: 80vh;
+        width: 80%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        position: relative;
+    }
+    .bg-woods-shaving {
+        background-image: url(../img/backgrounds/wood_shaving.jpg);
+        position: relative;
+        right: -50vw
+    }
+    .bg-hammer {
+        background-image: url(../img/backgrounds/hammer.jpg);
+        position: relative;
+        left: -100vw
+    }
+    .bg-holding-tool {
+        background-image: url(../img/backgrounds/person_holding_tool.jpg);
+        position: relative;
+        right: -150vw
+    }
+    .bg-holding-tool iframe {
+        height: 100%;
+        width: 100%;
     }
 }
 

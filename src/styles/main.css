@@ -397,7 +397,6 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    color: #000;
     z-index: 50000;
 }
 
@@ -413,6 +412,7 @@ nav ul li {
 
 nav a {
     font-weight: 600;
+    color: #000;
 }
 
 #repair-icon {
@@ -493,7 +493,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 25vh;
+    height: 20vh;
     width: 100%;
     padding: 2rem;
     background-color: var(--var-frost);
@@ -539,6 +539,63 @@ footer ul li p {
     .col.d-sm-xs-none {
         display: none;
     }
+    .d-sm-xs-none {
+        display: none;
+    }
+    .bg-woods-shaving {
+        background-image: url(../img/backgrounds/wood_shaving.jpg);
+        position: relative;
+        right: -85vw
+    }
+    .bg-hammer {
+        background-image: url(../img/backgrounds/hammer.jpg);
+        position: relative;
+        left: -166vw
+    }
+    .bg-holding-tool {
+        background-image: url(../img/backgrounds/person_holding_tool.jpg);
+        position: relative;
+        right: -266vw
+    }
+    .bg-holding-tool iframe {
+        height: 100%;
+        width: 100%;
+    }
+    /*JUMBOTRON*/
+    .jumbotron {
+        height: 80vh;
+        width: 100%;
+        position: relative;
+        background-size: 400%;
+        background-position: center;
+        background-repeat: no-repeat;
+        perspective: 200px;
+        overflow: hidden;
+    }
+    .bg-woodwork {
+        background-image: url(../img/backgrounds/woodwork.jpg);
+    }
+    .bg-woodwork-2 {
+        background-image: url(../img/backgrounds/woodwork2.jpg);
+    }
+    .bg-woodwork-3 {
+        background-image: url(../img/backgrounds/woodwork3.jpg);
+        animation-name: zoom-in;
+        animation-duration: 20s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes zoom-in {
+        50% {
+            background-size: 450%;
+        }
+    }
+    /*MENU TOGGLE*/
+    #menu-left-toggle,
+    #close-menu-left {
+        height: 6rem;
+        width: 6rem;
+        cursor: pointer;
+    }
 }
 
 
@@ -557,6 +614,9 @@ footer ul li p {
         overflow: hidden;
     }
     .col.d-sm-xs-none {
+        display: none;
+    }
+    .d-sm-xs-none {
         display: none;
     }
     .bg-woods-shaving {
@@ -606,6 +666,13 @@ footer ul li p {
             background-size: 350%;
         }
     }
+    /*MENU TOGGLE*/
+    #menu-left-toggle,
+    #close-menu-left {
+        height: 6rem;
+        width: 6rem;
+        cursor: pointer;
+    }
 }
 
 
@@ -624,6 +691,9 @@ footer ul li p {
         overflow: hidden;
     }
     .col.d-sm-xs-none {
+        display: none;
+    }
+    .d-sm-xs-none {
         display: none;
     }
     .bg-woods-shaving {
@@ -672,6 +742,12 @@ footer ul li p {
         50% {
             background-size: 300%;
         }
+    }
+    #menu-left-toggle,
+    #close-menu-left {
+        height: 6rem;
+        width: 6rem;
+        cursor: pointer;
     }
 }
 
@@ -739,6 +815,11 @@ footer ul li p {
             background-size: 200%;
         }
     }
+    /*MENU TOGGLE*/
+    #menu-left-toggle,
+    #close-menu-left {
+        display: none;
+    }
 }
 
 
@@ -803,6 +884,10 @@ footer ul li p {
         50% {
             background-size: 150%;
         }
+    }
+    #menu-left-toggle,
+    #close-menu-left {
+        display: none;
     }
 }
 
@@ -2150,4 +2235,43 @@ label {
 input {
     height: 2rem;
     margin-bottom: 1rem;
+}
+
+
+/*MENU LEFT TOGGLE*/
+
+#menu-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 0;
+    background-color: var(--var-frost);
+    color: var(--var-black);
+    z-index: 60000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: width 1s ease-in-out;
+}
+
+#menu-left ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+#menu-left ul a {
+    color: #000;
+    font-size: 0;
+}
+
+#close-menu-left {
+    filter: brightness(0%);
+    align-self: flex-end;
+    margin-top: 2rem;
+    margin-right: 2rem;
 }

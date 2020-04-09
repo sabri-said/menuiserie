@@ -26,9 +26,10 @@
 .bg-pangea-coffee-table,
 .bg-design-stairs-1,
 .bg-design-stairs-2,
-.bg-wood-frame-bear,
 .bg-wood-frame-humming-bird,
-.bg-wood-frame-lion {
+.bg-wood-frame-bear-2,
+.bg-wood-frame-moonlight,
+.bg-wood-frame-wolf {
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -36,7 +37,9 @@
 .bg-carmel-river-coffee-table:hover,
 .bg-cottonwood-creek-coffee-table:hover,
 .bg-green-river-side-table:hover,
-.bg-pangea-coffee-table:hover {
+.bg-pangea-coffee-table:hover,
+.bg-design-stairs-1,
+.bg-design-stairs-2 {
   background-size: cover;
 }
 
@@ -63,15 +66,15 @@
 }
 
 .bg-wood-frame-bear:hover {
-  background-position: top right;
+  background-position: top right 15%;
 }
 
 .bg-wood-frame-humming-bird:hover {
-  background-position: -45rem;
+  background-position: 70%;
 }
 
 .bg-wood-frame-lion:hover {
-  background-position: -5rem;
+  background-position: 20%;
 }
 
 .bg-carmel-river-coffee-table {

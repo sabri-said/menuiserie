@@ -447,6 +447,40 @@ nav ul li a.nav-link:hover {
 }
 
 
+/*JUMBOTRON*/
+
+.jumbotron {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    perspective: 500px;
+}
+
+.bg-woodwork {
+    background-image: url(../img/backgrounds/woodwork.jpg);
+}
+
+.bg-woodwork-2 {
+    background-image: url(../img/backgrounds/woodwork2.jpg);
+}
+
+.bg-woodwork-3 {
+    background-image: url(../img/backgrounds/woodwork3.jpg);
+    animation-name: zoom-in;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes zoom-in {
+    50% {
+        background-size: 150%;
+    }
+}
+
+
 /*FOOTER*/
 
 footer {
@@ -489,7 +523,7 @@ footer ul li p {
     html {
         font-size: calc(var(--base-font-size)*.75);
     }
-    section {
+    section.about {
         height: 75vh;
         width: 100%;
         margin-top: 12.5vh;
@@ -509,7 +543,7 @@ footer ul li p {
     html {
         font-size: calc(var(--base-font-size)*.75);
     }
-    section {
+    section.about {
         height: 50vh;
         width: 100%;
         margin-top: 25vh;
@@ -548,7 +582,7 @@ footer ul li p {
     html {
         font-size: calc(var(--base-font-size)*1);
     }
-    section {
+    section.about {
         height: 80vh;
         width: 100%;
         margin-top: 10vh;
@@ -587,7 +621,7 @@ footer ul li p {
     html {
         font-size: calc(var(--base-font-size)*1.5);
     }
-    section {
+    section.about {
         height: 80vh;
         width: 80%;
         margin-left: 10%;
@@ -625,7 +659,7 @@ footer ul li p {
     html {
         font-size: calc(var(--base-font-size)*2);
     }
-    section {
+    section.about {
         height: 80vh;
         width: 80%;
         margin-top: 10vh;

@@ -37,6 +37,6 @@ function valuePropositionAppear() {
             'width': '75%',
             'font-size': '3rem'
         })
-    }, 4000);
+    }, 6000);
 
 };

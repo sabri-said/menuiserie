@@ -391,59 +391,28 @@ section ul {
 /*NAVBAR*/
 
 nav {
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    position: relative;
-    z-index: 10000;
-    font-weight: 600;
     position: absolute;
-}
-
-.nav-brand {
-    color: var(--var-primary);
-    font-size: 1.5rem;
-}
-
-nav,
-nav ul {
-    flex-direction: row;
-}
-
-nav a {
-    color: ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    z-index: 50000;
 }
 
 nav ul {
     list-style-type: none;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 1rem;
 }
 
-nav input {
-    -webkit-appearance: none;
-    caret-color: var(--var-white)
+nav ul li {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-nav ul li a.nav-link:hover {
-    border-bottom: var(--var-secondary) .25rem solid;
-}
-
-.nav-link {
-    color: var(--var-secondary);
-    margin-left: 2rem;
-}
-
-.menu-show-button {
-    height: 64px;
-    width: 64px;
-}
-
-.menu-close-button {
-    height: 64px;
-    width: 64px;
+nav a {
+    font-weight: 600;
 }
 
 
@@ -498,16 +467,40 @@ nav ul li a.nav-link:hover {
     animation-timing-function: ease-in-out;
     position: absolute;
     right: 2rem;
-    top: 2rem;
+    top: 25rem;
+    z-index: 5000;
+}
+
+#portfolio {
+    background-color: var(--var-white);
+    padding: 2rem;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    animation-name: translate-bottom;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    right: 2rem;
+    top: 10rem;
     z-index: 5000;
 }
 
 @keyframes translate {
-    33% {
-        transform: translateX(-80vw) translateY(40vh) rotate(30deg);
+    50% {
+        transform: translateX(-60vw) rotate(-30deg);
     }
-    66% {
-        transform: translateY(40vh) rotate(-30deg);
+}
+
+@keyframes translate-bottom {
+    50% {
+        transform: translateY(25vh);
     }
 }
 

@@ -415,41 +415,6 @@ nav a {
     font-weight: 600;
 }
 
-
-/*JUMBOTRON*/
-
-.jumbotron {
-    height: 80vh;
-    width: 100%;
-    position: relative;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    perspective: 200px;
-    overflow: hidden;
-}
-
-.bg-woodwork {
-    background-image: url(../img/backgrounds/woodwork.jpg);
-}
-
-.bg-woodwork-2 {
-    background-image: url(../img/backgrounds/woodwork2.jpg);
-}
-
-.bg-woodwork-3 {
-    background-image: url(../img/backgrounds/woodwork3.jpg);
-    animation-name: zoom-in;
-    animation-duration: 20s;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes zoom-in {
-    50% {
-        background-size: 150%;
-    }
-}
-
 #repair-icon {
     background-color: var(--var-white);
     padding: 2rem;
@@ -613,6 +578,34 @@ footer ul li p {
         height: 100%;
         width: 100%;
     }
+    /*JUMBOTRON*/
+    .jumbotron {
+        height: 80vh;
+        width: 100%;
+        position: relative;
+        background-size: 310%;
+        background-position: center;
+        background-repeat: no-repeat;
+        perspective: 200px;
+        overflow: hidden;
+    }
+    .bg-woodwork {
+        background-image: url(../img/backgrounds/woodwork.jpg);
+    }
+    .bg-woodwork-2 {
+        background-image: url(../img/backgrounds/woodwork2.jpg);
+    }
+    .bg-woodwork-3 {
+        background-image: url(../img/backgrounds/woodwork3.jpg);
+        animation-name: zoom-in;
+        animation-duration: 20s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes zoom-in {
+        50% {
+            background-size: 350%;
+        }
+    }
 }
 
 
@@ -652,6 +645,34 @@ footer ul li p {
         height: 100%;
         width: 100%;
     }
+    /*JUMBOTRON*/
+    .jumbotron {
+        height: 80vh;
+        width: 100%;
+        position: relative;
+        background-size: 250%;
+        background-position: center;
+        background-repeat: no-repeat;
+        perspective: 200px;
+        overflow: hidden;
+    }
+    .bg-woodwork {
+        background-image: url(../img/backgrounds/woodwork.jpg);
+    }
+    .bg-woodwork-2 {
+        background-image: url(../img/backgrounds/woodwork2.jpg);
+    }
+    .bg-woodwork-3 {
+        background-image: url(../img/backgrounds/woodwork3.jpg);
+        animation-name: zoom-in;
+        animation-duration: 20s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes zoom-in {
+        50% {
+            background-size: 300%;
+        }
+    }
 }
 
 
@@ -690,6 +711,34 @@ footer ul li p {
         height: 100%;
         width: 100%;
     }
+    /*JUMBOTRON*/
+    .jumbotron {
+        height: 80vh;
+        width: 100%;
+        position: relative;
+        background-size: 150%;
+        background-position: center;
+        background-repeat: no-repeat;
+        perspective: 200px;
+        overflow: hidden;
+    }
+    .bg-woodwork {
+        background-image: url(../img/backgrounds/woodwork.jpg);
+    }
+    .bg-woodwork-2 {
+        background-image: url(../img/backgrounds/woodwork2.jpg);
+    }
+    .bg-woodwork-3 {
+        background-image: url(../img/backgrounds/woodwork3.jpg);
+        animation-name: zoom-in;
+        animation-duration: 20s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes zoom-in {
+        50% {
+            background-size: 200%;
+        }
+    }
 }
 
 
@@ -726,6 +775,34 @@ footer ul li p {
     .bg-holding-tool iframe {
         height: 100%;
         width: 100%;
+    }
+    /*JUMBOTRON*/
+    .jumbotron {
+        height: 80vh;
+        width: 100%;
+        position: relative;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        perspective: 200px;
+        overflow: hidden;
+    }
+    .bg-woodwork {
+        background-image: url(../img/backgrounds/woodwork.jpg);
+    }
+    .bg-woodwork-2 {
+        background-image: url(../img/backgrounds/woodwork2.jpg);
+    }
+    .bg-woodwork-3 {
+        background-image: url(../img/backgrounds/woodwork3.jpg);
+        animation-name: zoom-in;
+        animation-duration: 20s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes zoom-in {
+        50% {
+            background-size: 150%;
+        }
     }
 }
 
@@ -896,6 +973,11 @@ footer ul li p {
 
 .absolute {
     position: absolute;
+}
+
+.absolute-bottom {
+    position: absolute;
+    bottom: 0;
 }
 
 .relative {
@@ -1788,9 +1870,14 @@ footer ul li p {
 /*CARDS*/
 
 .card {
-    height: 500px;
-    width: 370px;
+    height: 10rem;
+    width: 10rem;
     margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .card-body {

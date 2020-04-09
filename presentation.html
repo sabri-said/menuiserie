@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="src/styles/menuiserie.css">
     <!--OWN JS FILES-->
     <script src="src/js/translateOnSroll.js"></script>
+    <script src="src/js/menuLeftToggle.js"></script>
 </head>
 <title>Monbeaumeuble: menuisier de père en fils depuis 1924</title>
 </head>
@@ -23,7 +24,17 @@
 <body>
 
     <header>
-        <nav></nav>
+        <nav>
+            <ul>
+                <li class="d-sm-xs-none"><a>Accueil</a></li>
+                <li><img src="src/img/icons/burger_menu_dark_icon.png" alt="menu icon" id="menu-left-toggle"></li>
+            </ul>
+            <ul class="d-sm-xs-none">
+                <li><a href="presentation.html">A propos</a></li>
+                <li><a>Réalisations</a></li>
+                <li><a>Prestations</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="bg-tools" style="perspective: 3000px;">
@@ -98,7 +109,22 @@
 
             </section>
         </div>
+
     </main>
+
+    <section id="menu-left">
+
+        <img src="src/img/icons/close_modal.png" alt="close menu icon" id="close-menu-left">
+
+        <ul>
+            <li><a href="presentation.html">A propos</a></li>
+            <li><a>Réalisations</a></li>
+            <li><a>Prestations</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+
+    </section>
+
 
     <footer class="bg-wood row no-wrap">
         <div class="col">
@@ -124,13 +150,13 @@
                     <p>Monbeaumeuble</p>
                 </li>
                 <li>
-                    <a>lorem</a>
+                    <a href="presentation.html">A propos</a>
                 </li>
                 <li>
-                    <a>Ipsum</a>
+                    <a>Réalisations</a>
                 </li>
                 <li>
-                    <a>Dolor</a>
+                    <a>Prestations</a>
                 </li>
 
             </ul>
@@ -169,7 +195,8 @@
 
     <script>
         window.load = translateOnScrollToRight(['section.bg-painting', 'section.bg-hammer']);
-        translateOnScrollToLeft(['section.bg-woods-shaving', 'section.bg-holding-tool'])
+        translateOnScrollToLeft(['section.bg-woods-shaving', 'section.bg-holding-tool']);
+        menuLeftToggle();
     </script>
 </body>
 

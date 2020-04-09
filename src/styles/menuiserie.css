@@ -18,3 +18,106 @@
 .bark {
   background-color: var(--var-bark)
 }
+
+/*BACKGROUND IMAGES*/
+.bg-carmel-river-coffee-table,
+.bg-cottonwood-creek-coffee-table,
+.bg-green-river-side-table,
+.bg-pangea-coffee-table,
+.bg-design-stairs-1,
+.bg-design-stairs-2,
+.bg-wood-frame-bear,
+.bg-wood-frame-humming-bird,
+.bg-wood-frame-lion {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-carmel-river-coffee-table:hover,
+.bg-cottonwood-creek-coffee-table:hover,
+.bg-green-river-side-table:hover,
+.bg-pangea-coffee-table:hover {
+  background-size: cover;
+}
+
+.bg-design-stairs-1,
+.bg-design-stairs-2,
+.bg-wood-frame-bear,
+.bg-wood-frame-humming-bird,
+.bg-wood-frame-lion,
+.bg-wood-frame-bear-2,
+.bg-wood-frame-moonlight,
+.bg-wood-frame-wolf {
+  transition: 0.5s;
+}
+
+.bg-design-stairs-1:hover,
+.bg-design-stairs-2:hover,
+.bg-wood-frame-bear:hover,
+.bg-wood-frame-humming-bird:hover,
+.bg-wood-frame-lion:hover,
+.bg-wood-frame-bear-2:hover,
+.bg-wood-frame-moonlight:hover,
+.bg-wood-frame-wolf:hover {
+  flex-shrink: 0;
+}
+
+.bg-wood-frame-bear:hover {
+  background-position: top right;
+}
+
+.bg-wood-frame-humming-bird:hover {
+  background-position: -45rem;
+}
+
+.bg-wood-frame-lion:hover {
+  background-position: -5rem;
+}
+
+.bg-carmel-river-coffee-table {
+  background-image: url("../img/backgrounds/carmel-river-coffee-table.jpg");
+}
+
+.bg-cottonwood-creek-coffee-table {
+  background-image: url("../img/backgrounds/cottonwood-creek-coffee-table.jpg");
+}
+
+.bg-green-river-side-table {
+  background-image: url("../img/backgrounds/green-river-side-table.jpg");
+}
+
+.bg-pangea-coffee-table {
+  background-image: url("../img/backgrounds/pangea-coffee-table.jpg");
+}
+
+.bg-design-stairs-1 {
+  background-image: url("../img/backgrounds/design-stairs-1.jpg");
+}
+
+.bg-design-stairs-2 {
+  background-image: url("../img/backgrounds/design-stairs-2.jpg");
+}
+
+.bg-wood-frame-bear {
+  background-image: url("../img/backgrounds/wood-frame-bear.jpg");
+}
+
+.bg-wood-frame-humming-bird {
+  background-image: url("../img/backgrounds/wood-frame-humming-bird-3.jpg");
+}
+
+.bg-wood-frame-lion {
+  background-image: url("../img/backgrounds/wood-frame-lion-2.jpg");
+}
+
+.bg-wood-frame-bear-2 {
+  background-image: url("../img/backgrounds/wood-frame-bear-3.jpg");
+}
+
+.bg-wood-frame-moonlight {
+  background-image: url("../img/backgrounds/wood-frame-moonlight.jpg");
+}
+
+.bg-wood-frame-wolf {
+  background-image: url("../img/backgrounds/wood-frame-wolf.jpg");
+}

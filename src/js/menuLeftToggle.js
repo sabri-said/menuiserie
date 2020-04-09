@@ -7,10 +7,10 @@ function menuLeftToggle() {
 
     openMenu.click(function() {
         menu.css({
-            'width': '66%'
+            'width': '100%'
         });
         menuLinks.css({
-            'font-size': '1.5rem'
+            'font-size': '3rem'
         });
     });
 

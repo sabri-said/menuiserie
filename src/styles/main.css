@@ -436,6 +436,11 @@ nav a {
     z-index: 5000;
 }
 
+#repair-icon img {
+    height: 100%;
+    width: 100%;
+}
+
 #portfolio {
     background-color: var(--var-white);
     padding: 2rem;
@@ -455,6 +460,11 @@ nav a {
     right: 2rem;
     top: 10rem;
     z-index: 5000;
+}
+
+#portfolio img {
+    height: 100%;
+    width: 100%;
 }
 
 @keyframes translate {

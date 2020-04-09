@@ -27,3 +27,16 @@ function translateOnScrollToLeft(target) {
 
     })
 }
+
+
+function valuePropositionAppear() {
+
+
+    setTimeout(() => {
+        $('#value-proposition').find('h1').css({
+            'width': '75%',
+            'font-size': '3rem'
+        })
+    }, 4000);
+
+};

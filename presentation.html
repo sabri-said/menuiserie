@@ -17,6 +17,7 @@
     <!--OWN JS FILES-->
     <script src="src/js/translateOnSroll.js"></script>
     <script src="src/js/menuLeftToggle.js"></script>
+    <script src="src/js/chatBotModal.js"></script>
 </head>
 <title>Monbeaumeuble: menuisier de père en fils depuis 1924</title>
 </head>
@@ -123,6 +124,32 @@
 
     </section>
 
+    <section id="chat-bot">
+
+        <div class="header row no-wrap relative align-items-end">
+            <img src="src/img/icons/close.png" alt="" id="close">
+            <img src="src/img/icons/minus.png" alt="" id="minus">
+            <p class="text-white mb-1 ml-1">Bonjour ! je suis ici pour vous aider...</p>
+        </div>
+        <div class="body">
+
+            <div class="message-chat"></div>
+            <div class="message-chat"></div>
+            <div class="message-chat"></div>
+            <div class="message-chat"></div>
+            <div class="message-chat"></div>
+        </div>
+        <div class="footer">
+            <div class="form-group w-90">
+                <label for="user_message">Entrez votre message</label>
+                <input type="text" name="user_message" id="user_message">
+            </div>
+        </div>
+
+    </section>
+
+    <img src="src/img/icons/question.png" id="question">
+
 
 
     <footer class="bg-wood row no-wrap">
@@ -193,6 +220,7 @@
         window.load = translateOnScrollToRight(['section.bg-painting', 'section.bg-hammer']);
         translateOnScrollToLeft(['section.bg-woods-shaving', 'section.bg-holding-tool']);
         menuLeftToggle();
+        displayChatBox();
     </script>
 </body>
 

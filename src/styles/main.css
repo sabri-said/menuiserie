@@ -1567,6 +1567,7 @@ audio {
   0% {
     background: radial-gradient(circle at center, var(--var-success-light) 50%, var(--var-success) 50%, var(--var-success) 100%);
   }
+<<<<<<< HEAD
 
   5% {
     background: radial-gradient(circle at center, var(--var-success-light) 60%, var(--var-success) 60%, var(--var-success) 100%);
@@ -1830,3 +1831,148 @@ input {
     overflow: hidden;
   } */
 }
+=======
+
+  5% {
+    background: radial-gradient(circle at center, var(--var-success-light) 60%, var(--var-success) 60%, var(--var-success) 100%);
+  }
+
+  10% {
+    background: radial-gradient(circle at center, var(--var-success-light) 75%, var(--var-success) 75%, var(--var-success) 100%);
+  }
+
+  15% {
+    background: radial-gradient(circle at center, var(--var-success-light) 99%, var(--var-success) 100%, var(--var-success) 100%);
+  }
+
+  100% {
+    background: radial-gradient(circle at center, var(--var-success-light) 99%, var(--var-success) 100%, var(--var-success) 100%);
+  }
+}
+
+@keyframes gradient-primary {
+  0% {
+    background: radial-gradient(circle at center, var(--var-primary-light) 50%, var(--var-primary) 50%, var(--var-primary) 100%);
+  }
+
+  5% {
+    background: radial-gradient(circle at center, var(--var-primary-light) 60%, var(--var-primary) 60%, var(--var-primary) 100%);
+  }
+
+  10% {
+    background: radial-gradient(circle at center, var(--var-primary-light) 75%, var(--var-primary) 75%, var(--var-primary) 100%);
+  }
+
+  15% {
+    background: radial-gradient(circle at center, var(--var-primary-light) 99%, var(--var-primary) 100%, var(--var-primary) 100%);
+  }
+
+  100% {
+    background: radial-gradient(circle at center, var(--var-primary-light) 99%, var(--var-primary) 100%, var(--var-primary) 100%);
+  }
+}
+
+@keyframes gradient-secondary {
+  0% {
+    background: radial-gradient(circle at center, var(--var-secondary-light) 50%, var(--var-secondary) 50%, var(--var-secondary) 100%);
+  }
+
+  5% {
+    background: radial-gradient(circle at center, var(--var-secondary-light) 60%, var(--var-secondary) 60%, var(--var-secondary) 100%);
+  }
+
+  10% {
+    background: radial-gradient(circle at center, var(--var-secondary-light) 75%, var(--var-secondary) 75%, var(--var-secondary) 100%);
+  }
+
+  15% {
+    background: radial-gradient(circle at center, var(--var-secondary-light) 99%, var(--var-secondary) 100%, var(--var-secondary) 100%);
+  }
+
+  100% {
+    background: radial-gradient(circle at center, var(--var-secondary-light) 99%, var(--var-secondary) 100%, var(--var-secondary) 100%);
+  }
+}
+
+@keyframes gradient-danger {
+  0% {
+    background: radial-gradient(circle at center, var(--var-danger-light) 50%, var(--var-danger) 50%, var(--var-danger) 100%);
+  }
+
+  5% {
+    background: radial-gradient(circle at center, var(--var-danger-light) 60%, var(--var-danger) 60%, var(--var-danger) 100%);
+  }
+
+  10% {
+    background: radial-gradient(circle at center, var(--var-danger-light) 75%, var(--var-danger) 75%, var(--var-danger) 100%);
+  }
+
+  15% {
+    background: radial-gradient(circle at center, var(--var-danger-light) 99%, var(--var-danger) 100%, var(--var-danger) 100%);
+  }
+
+  100% {
+    background: radial-gradient(circle at center, var(--var-danger-light) 99%, var(--var-danger) 100%, var(--var-danger) 100%);
+  }
+}
+
+@keyframes gradient-warning {
+  0% {
+    background: radial-gradient(circle at center, var(--var-warning-light) 50%, var(--var-warning) 50%, var(--var-warning) 100%);
+  }
+
+  5% {
+    background: radial-gradient(circle at center, var(--var-warning-light) 60%, var(--var-warning) 60%, var(--var-warning) 100%);
+  }
+
+  10% {
+    background: radial-gradient(circle at center, var(--var-warning-light) 75%, var(--var-warning) 75%, var(--var-warning) 100%);
+  }
+
+  15% {
+    background: radial-gradient(circle at center, var(--var-warning-light) 99%, var(--var-warning) 100%, var(--var-warning) 100%);
+  }
+
+  100% {
+    background: radial-gradient(circle at center, var(--var-warning-light) 99%, var(--var-warning) 100%, var(--var-warning) 100%);
+  }
+}
+
+@keyframes gradient-dark {
+  0% {
+    background: radial-gradient(circle at center, var(--var-dark-light) 50%, var(--var-dark) 50%, var(--var-dark) 100%);
+  }
+
+  5% {
+    background: radial-gradient(circle at center, var(--var-dark-light) 60%, var(--var-dark) 60%, var(--var-dark) 100%);
+  }
+
+  10% {
+    background: radial-gradient(circle at center, var(--var-dark-light) 75%, var(--var-dark) 75%, var(--var-dark) 100%);
+  }
+
+  15% {
+    background: radial-gradient(circle at center, var(--var-dark-light) 99%, var(--var-dark) 100%, var(--var-dark) 100%);
+  }
+
+  100% {
+    background: radial-gradient(circle at center, var(--var-dark-light) 99%, var(--var-dark) 100%, var(--var-dark) 100%);
+  }
+}
+
+/*FORMS UTILITIES*/
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+label {
+  margin-bottom: .5rem;
+}
+
+input {
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+>>>>>>> ed2ea85a448c2c3e5052a618c9d7cb86e115932e

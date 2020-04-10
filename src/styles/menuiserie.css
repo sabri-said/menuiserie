@@ -54,6 +54,11 @@
   background-position: center;
 }
 
+.bg-carpenter {
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
 .bg-carmel-river-coffee-table:hover,
 .bg-cottonwood-creek-coffee-table:hover,
 .bg-green-river-side-table:hover,
@@ -62,7 +67,8 @@
 .bg-wood-frame-moonlight:hover,
 .bg-wood-frame-wolf:hover,
 .bg-design-stairs-1,
-.bg-design-stairs-2 {
+.bg-design-stairs-2,
+.bg-carpenter {
   background-size: cover;
 }
 
@@ -98,6 +104,10 @@
 
 .bg-wood-frame-lion:hover {
   background-position: 20%;
+}
+
+.bg-carpenter {
+  background-image: url("../img/backgrounds/carpenter-background.jpg");
 }
 
 .bg-carmel-river-coffee-table {
@@ -841,13 +851,24 @@
 }
 
 /* TEXT */
-h1{
+h1 {
   color: var(--var-frost);
 }
+
 h3 {
   color: var(--var-bark)
 }
 
+div>h2 {
+  color: var(--var-bark);
+  top: -4rem;
+  left: 30rem;
+}
+p.text-justify.relative {
+  color: var(--var-frost);
+  padding-right: 70rem;
+  left: 65rem;
+}
 p {
   color: var(--var-nightfall)
 }

@@ -1847,6 +1847,7 @@ textarea {
 label {
   margin-bottom: 1rem;
   font-weight: 600;
+  color: var(--var-frost)
 }
 
 input {

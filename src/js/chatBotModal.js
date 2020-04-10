@@ -35,3 +35,35 @@ function displayChatBox() {
         });
     })
 }
+
+function chatBotInteraction() {
+
+    var chatBoxButton = $('#message-send');
+
+    chatBoxButton.click(function() {
+
+        var inputMessageChatBox = $('#user_message').val();
+
+        $('#chat-bot').find('.body').append("<div class='message-chat'>" + inputMessageChatBox + "</div>");
+
+        if (inputMessageChatBox.match(/\?/) != undefined) {
+            var answer = "En éspérant que les liens ci dessous puissent vous aider:";
+            var linkAdvise = "<ul class='link-advise'><li><a href=''>A propos</a></li> <li><a href=''>Nos réalisations</a></li>  <li><a href=''>Contact</a></li></ul>";
+            $('#chat-bot').find('.body').append(
+                "<div class='message-chat'>" + answer + linkAdvise +
+                "</div>"
+            );
+        } else {
+            var answerError = "Notre système de chatBot est en cours de développement merci de reformuler votre question";
+
+            $('#chat-bot').find('.body').append(
+                "<div class='message-chat'>" + answerError +
+                "</div>"
+            );
+        };
+
+    });
+
+
+
+};

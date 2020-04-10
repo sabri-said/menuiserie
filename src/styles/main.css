@@ -1574,7 +1574,7 @@ button {
   cursor: pointer;
   text-transform: uppercase;
   background: var(--var-burnt-amber);
-  color: var(--var-black);
+  color: var(--var-nightfall);
   transition: 0.3s;
 }
 

@@ -22,7 +22,7 @@
 <title>Monbeaumeuble: menuisier de père en fils depuis 1924</title>
 </head>
 
-<body class="welcome">
+<body>
 
     <header>
         <nav>
@@ -36,51 +36,80 @@
                 <li><a>Prestations</a></li>
             </ul>
         </nav>
-
-        <section class="jumbotron bg-woodwork-3">
-
-            <div class="bg-white-overlay-medium h-100 w-100">
-
-                <div id="repair-icon">
-                    <img src="src/img/icons/repair.png" alt="repair icon">
-                    <p class="mt-1">Contact</p>
-                </div>
-
-                <div id="portfolio">
-                    <img src="src/img/icons/portfolio.png" alt="portfolio">
-                    <p class="mt-1">Portfolio</p>
-                </div>
-
-                <div class="row no-wrap">
-
-                    <div class="col align-items-center justify-center w-200">
-
-                        <div id="value-proposition">
-                            <h1>Monbeaumeuble&copy;: menuisier de père en fils depuis 1924</h1>
-                        </div>
-
-                    </div>
-                    <div class="col"></div>
-
-                </div>
-
-                <div class="absolute-bottom col  w-25 h-75 justify-center d-sm-xs-none">
-                    <div class="card"><i class="fas fa-coins fa-4x"></i>
-                        <p class="my-2">Excellent rapport qualité prix</p>
-                    </div>
-                    <div class="card"><i class="far fa-smile-wink fa-4x"></i>
-                        <p class="my-2">Satisfait ou remboursé</p>
-                    </div>
-                    <div class="card"><i class="fas fa-house-damage fa-4x"></i>
-                        <p class="my-2">Intervention à domicile</p>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </section>
     </header>
+
+    <main class="bg-tools" style="perspective: 3000px;">
+        <div class="bg-white-overlay-medium">
+
+            <section class="bg-painting about">
+                <div class="row no-wrap ">
+                    <div class="col relative ">
+                        <div class="overlay-light justify-center">
+                            <h4 class="m-2">Présentation</h4>
+                            <p class="my-1 mx-2">
+                                A quelques encablures du vieux port, quartier du Panier, la menuiserie Monbeaumeuble fait voler les copeaux de bois depuis 1924. C'est ainsi, la troisième génération de passionnés de bois qui distille son savoir-faire et ses connaissances au sein de cet
+                                endroit hors du temps et viens en aide aux particuliers entreprises et collectivités territoriales de la région Provence ALpes Côte d'Azur.
+                            </p>
+
+                            <a href="" class="btn-md btn-primary mx-2 my-1">Contact</a>
+                        </div>
+                    </div>
+                    <div class="col d-sm-xs-none"></div>
+                </div>
+            </section>
+            <section class="bg-woods-shaving about">
+
+                <div class="row no-wrap ">
+                    <div class="col d-sm-xs-none"></div>
+                    <div class="col relative ">
+                        <div class="overlay-light justify-center">
+                            <h4 class="m-2">Je m'appelle Martin Dupont...</h4>
+                            <p class="my-1 mx-2">
+                                Après l’obtention de mon CAP Menuisier Agenceur au CFA régional des Compagnons du Devoir du Tour de France à Marseille, j'ai travaillé durant six ans dans une menuiserie, pratiquant ainsi la fabrication et la pose de meubles, portes et fenêtres. Je poursuis
+                                ma carrière en devenant métreur poseur durant 5 ans dans une miroiterie et me perfectionne alors dans divers matériaux comme le PVC ou l’aluminium. C’est en 2001 que je décide de reprendre l'affaire familiale à Marseille,
+                                apportant ainsi une nouvelle vision du métier et une expertise sur des matériaux plus récents à la maison Monbeaumeuble.
+                            </p>
+                            <a href="" class="btn-md btn-primary mx-2 my-1">Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="bg-hammer about">
+                <div class="row no-wrap ">
+                    <div class="col d-sm-xs-none"></div>
+                    <div class="col relative ">
+                        <div class="overlay-light justify-center">
+                            <h4 class="m-2">Nos valeurs:</h4>
+                            <ul class="my-1 mx-2">
+                                <li>Qualité</li>
+                                <li>Engagement</li>
+                                <li>Sérieux</li>
+                                <li>Réactivité</li>
+                            </ul>
+                            <a href="" class="btn-md btn-primary my-1 mx-2">Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="bg-holding-tool about">
+                <div class="row no-wrap ">
+                    <div class="col d-sm-xs-none"></div>
+                    <div class="col relative ">
+                        <div class="overlay-light">
+                            <p class="m-2">Adresse: 25 Rue Saint-Antoine, 13002 Marseille</p>
+                            <div class="h-100 w-100">
+                                <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=25%20Rue%20Saint-Antoine%2C%2013002%20Marseille&key=AIzaSyB3xSSrBHSde5xuiNCDjebEUb-FV1Skoi8" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </main>
 
     <section id="menu-left">
 
@@ -120,6 +149,8 @@
     </section>
 
     <img src="src/img/icons/question.png" id="question">
+
+
 
     <footer class="bg-wood row no-wrap">
         <div class="col">
@@ -186,7 +217,8 @@
     </footer>
 
     <script>
-        window.load = valuePropositionAppear();
+        window.load = translateOnScrollToRight(['section.bg-painting', 'section.bg-hammer']);
+        translateOnScrollToLeft(['section.bg-woods-shaving', 'section.bg-holding-tool']);
         menuLeftToggle();
         displayChatBox();
     </script>

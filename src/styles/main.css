@@ -1,4 +1,7 @@
 /*MAIN GRAPHICS CHOICES*/
+/*TYPOGRAPHY*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 html {
   /*TYPO SIZE BASE 8PX*/
   --base-font-size: 8px;
@@ -104,6 +107,44 @@ html {
   --var-warning-light-overlay-super-light: ;
   --var-danger-overlay-super-light: ;
   --var-danger-light-overlay-super-light: ;
+}
+
+/* FONTS FAMILY*/
+/* FONTS WEIGHT*/
+.msrt-fw-100 {
+  font-weight: 100;
+}
+
+.msrt-fw-200 {
+  font-weight: 200;
+}
+
+.msrt-fw-300 {
+  font-weight: 300;
+}
+
+.msrt-fw-400 {
+  font-weight: 400;
+}
+
+.msrt-fw-500 {
+  font-weight: 500;
+}
+
+.msrt-fw-600 {
+  font-weight: 600;
+}
+
+.msrt-fw-700 {
+  font-weight: 700;
+}
+
+.msrt-fw-800 {
+  font-weight: 800;
+}
+
+.msrt-fw-900 {
+  font-weight: 900;
 }
 
 /*COLORS*/
@@ -241,18 +282,12 @@ html {
   color: var(--var-danger-light);
 }
 
-/*TYPOGRAPHY ARCHIVO HEADERS OPEN SANS OTHER MARKUPS*/
-@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Open+Sans&display=swap');
-
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: 'Archivo', sans-serif;
-}
-
+h6 {} */
 h1 {
   font-size: 4rem;
 }
@@ -277,7 +312,6 @@ select,
 input,
 label,
 blockquote,
-button,
 table,
 th,
 tr,
@@ -285,9 +319,7 @@ td,
 textarea,
 hr {
   font-size: 1.5rem;
-  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  border-style: none;
 }
 
 input,
@@ -296,7 +328,7 @@ input:focus,
 a:focus,
 textarea,
 textarea:focus {
-  outline: 0;
+  outline: none;
 }
 
 hr {
@@ -309,6 +341,7 @@ hr {
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html,
@@ -388,13 +421,13 @@ footer {
   height: 20%;
   width: 100%;
   padding: 2rem;
-  background-color: var(--var-nightfall);
+  background-color: var(--var-frost);
   overflow-x: hidden;
 }
 
 footer a,
 footer p {
-  color: var(--var-frost);
+  color: var(--var-nightfall);
   font-size: 1rem;
 }
 
@@ -486,6 +519,14 @@ footer ul li p {
 }
 
 /*LINES COLUMNS UTILITIES*/
+.container, .container-sm, .container-md, .container-lg, .container-xl {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .col {
   display: flex;
   flex-direction: column;
@@ -1521,6 +1562,28 @@ audio {
 }
 
 /* BUTTONS */
+button {
+  width: 15rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: var(--var-burnt-amber);
+  color: var(--var-black);
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: var(--var-bark);
+  color: var(--var-frost);
+  transition: 0.3s;
+}
+
 .btn-sm,
 .btn-md,
 .btn-lg {
@@ -1759,13 +1822,36 @@ audio {
   justify-content: space-evenly;
 }
 
+.form-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+select, textarea, input {
+  padding: 0.5rem;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+select {
+  font-size: 1rem;
+}
+
+textarea {
+  min-height: 10rem;
+  resize: none;
+}
+
 label {
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 input {
   height: 2rem;
-  margin-bottom: 1rem;
+  border-style: none;
 }
 
 /*BREAKPOINTS*/

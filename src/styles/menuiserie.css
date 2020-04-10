@@ -1,3 +1,9 @@
+/* PAGE */
+
+.container{
+  background: var(--var-lead)
+}
+
 /* COLORS */
 .frost {
   background-color: var(--var-frost)

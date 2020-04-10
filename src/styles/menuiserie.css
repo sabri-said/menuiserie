@@ -805,3 +805,12 @@
   display: none;
   cursor: pointer;
 }
+
+/* TEXT */
+h3 {
+  color: var(--var-bark)
+}
+
+p {
+  color: var(--var-nightfall)
+}

@@ -1,47 +1,43 @@
-
 /* COLORS */
-
 .frost {
-    background-color: var(--var-frost)
+  background-color: var(--var-frost)
 }
 
 .lead {
-    background-color: var(--var-lead)
+  background-color: var(--var-lead)
 }
 
 .burnt-amber {
-    background-color: var(--var-burnt-amber)
+  background-color: var(--var-burnt-amber)
 }
 
 .nightfall {
-    background-color: var(--var-nightfall)
+  background-color: var(--var-nightfall)
 }
 
 .bark {
-    background-color: var(--var-bark)
+  background-color: var(--var-bark)
 }
 
-
 /*BACKGROUND IMAGES*/
-
 .bg-tools,
 .bg-painting,
 .bg-woods-shaving,
 .bg-hammer,
 .bg-holding-tool,
 .bg-wood {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .bg-tools {
-    background-image: url(../img/backgrounds/tools.jpg);
+  background-image: url(../img/backgrounds/tools.jpg);
 }
 
 .bg-painting {
-    background-image: url(../img/backgrounds/painting.jpg);
+  background-image: url(../img/backgrounds/painting.jpg);
 }
 
 .bg-carmel-river-coffee-table,
@@ -54,8 +50,8 @@
 .bg-wood-frame-bear-2,
 .bg-wood-frame-moonlight,
 .bg-wood-frame-wolf {
-    background-repeat: no-repeat;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bg-carmel-river-coffee-table:hover,
@@ -67,7 +63,7 @@
 .bg-wood-frame-wolf:hover,
 .bg-design-stairs-1,
 .bg-design-stairs-2 {
-    background-size: cover;
+  background-size: cover;
 }
 
 .bg-design-stairs-1,
@@ -78,7 +74,7 @@
 .bg-wood-frame-bear-2,
 .bg-wood-frame-moonlight,
 .bg-wood-frame-wolf {
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 .bg-design-stairs-1:hover,
@@ -89,727 +85,769 @@
 .bg-wood-frame-bear-2:hover,
 .bg-wood-frame-moonlight:hover,
 .bg-wood-frame-wolf:hover {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .bg-wood-frame-bear:hover {
-    background-position: top right 15%;
+  background-position: top right 15%;
 }
 
 .bg-wood-frame-humming-bird:hover {
-    background-position: 70%;
+  background-position: 70%;
 }
 
 .bg-wood-frame-lion:hover {
-    background-position: 20%;
+  background-position: 20%;
 }
 
 .bg-carmel-river-coffee-table {
-    background-image: url("../img/backgrounds/carmel-river-coffee-table.jpg");
+  background-image: url("../img/backgrounds/carmel-river-coffee-table.jpg");
 }
 
 .bg-cottonwood-creek-coffee-table {
-    background-image: url("../img/backgrounds/cottonwood-creek-coffee-table.jpg");
+  background-image: url("../img/backgrounds/cottonwood-creek-coffee-table.jpg");
 }
 
 .bg-green-river-side-table {
-    background-image: url("../img/backgrounds/green-river-side-table.jpg");
+  background-image: url("../img/backgrounds/green-river-side-table.jpg");
 }
 
 .bg-pangea-coffee-table {
-    background-image: url("../img/backgrounds/pangea-coffee-table.jpg");
+  background-image: url("../img/backgrounds/pangea-coffee-table.jpg");
 }
 
 .bg-design-stairs-1 {
-    background-image: url("../img/backgrounds/design-stairs-1.jpg");
+  background-image: url("../img/backgrounds/design-stairs-1.jpg");
 }
 
 .bg-design-stairs-2 {
-    background-image: url("../img/backgrounds/design-stairs-2.jpg");
+  background-image: url("../img/backgrounds/design-stairs-2.jpg");
 }
 
 .bg-wood-frame-bear {
-    background-image: url("../img/backgrounds/wood-frame-bear.jpg");
+  background-image: url("../img/backgrounds/wood-frame-bear.jpg");
 }
 
 .bg-wood-frame-humming-bird {
-    background-image: url("../img/backgrounds/wood-frame-humming-bird-3.jpg");
+  background-image: url("../img/backgrounds/wood-frame-humming-bird-3.jpg");
 }
 
 .bg-wood-frame-lion {
-    background-image: url("../img/backgrounds/wood-frame-lion-2.jpg");
+  background-image: url("../img/backgrounds/wood-frame-lion-2.jpg");
 }
 
 .bg-wood-frame-bear-2 {
-    background-image: url("../img/backgrounds/wood-frame-bear-3.jpg");
+  background-image: url("../img/backgrounds/wood-frame-bear-3.jpg");
 }
 
 .bg-wood-frame-moonlight {
-    background-image: url("../img/backgrounds/wood-frame-moonlight.jpg");
+  background-image: url("../img/backgrounds/wood-frame-moonlight.jpg");
 }
 
 .bg-wood-frame-wolf {
-    background-image: url("../img/backgrounds/wood-frame-wolf.jpg");
+  background-image: url("../img/backgrounds/wood-frame-wolf.jpg");
 }
-
 
 /*BREAKPOINTS*/
-
-
 /*XXS*/
-
 @media screen and (max-width:379px) {
-    html {
-        font-size: calc(var(--base-font-size)*.75);
-    }
-    section.about {
-        height: 75vh;
-        width: 100%;
-        margin-top: 12.5vh;
-        margin-bottom: 12.5vh;
-        position: relative;
-        overflow: hidden;
-    }
-    .col.d-sm-xs-none {
-        display: none;
-    }
-    .d-sm-xs-none {
-        display: none;
-    }
-    .bg-woods-shaving {
-        background-image: url(../img/backgrounds/wood_shaving.jpg);
-        position: relative;
-        right: -85vw
-    }
-    .bg-hammer {
-        background-image: url(../img/backgrounds/contract2.jpg);
-        position: relative;
-        left: -166vw
-    }
-    .bg-holding-tool {
-        background-image: url(../img/backgrounds/person_holding_tool.jpg);
-        position: relative;
-        right: -266vw
-    }
-    .bg-holding-tool iframe {
-        height: 100%;
-        width: 100%;
-    }
-    /*JUMBOTRON*/
-    .jumbotron {
-        height: 80vh;
-        width: 100%;
-        position: relative;
-        background-size: 400%;
-        background-position: center;
-        background-repeat: no-repeat;
-        perspective: 200px;
-        overflow: hidden;
-    }
-    .bg-woodwork {
-        background-image: url(../img/backgrounds/woodwork.jpg);
-    }
-    .bg-woodwork-2 {
-        background-image: url(../img/backgrounds/woodwork2.jpg);
-    }
-    .bg-woodwork-3 {
-        background-image: url(../img/backgrounds/wood-furniture.jpg);
-        animation-name: zoom-in;
-        animation-duration: 20s;
-        animation-timing-function: ease-in-out;
-    }
-    @keyframes zoom-in {
-        50% {
-            background-size: 450%;
-        }
-    }
-    /*MENU TOGGLE*/
-    #menu-left-toggle,
-    #close-menu-left {
-        height: 6rem;
-        width: 6rem;
-        cursor: pointer;
-    }
-}
+  html {
+    font-size: calc(var(--base-font-size)*.75);
+  }
 
+  section.about {
+    height: 75vh;
+    width: 100%;
+    margin-top: 12.5vh;
+    margin-bottom: 12.5vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .col.d-sm-xs-none {
+    display: none;
+  }
+
+  .d-sm-xs-none {
+    display: none;
+  }
+
+  .bg-woods-shaving {
+    background-image: url(../img/backgrounds/wood_shaving.jpg);
+    position: relative;
+    right: -85vw
+  }
+
+  .bg-hammer {
+    background-image: url(../img/backgrounds/contract2.jpg);
+    position: relative;
+    left: -166vw
+  }
+
+  .bg-holding-tool {
+    background-image: url(../img/backgrounds/person_holding_tool.jpg);
+    position: relative;
+    right: -266vw
+  }
+
+  .bg-holding-tool iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  /*JUMBOTRON*/
+  .jumbotron {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-size: 400%;
+    background-position: center;
+    background-repeat: no-repeat;
+    perspective: 200px;
+    overflow: hidden;
+  }
+
+  .bg-woodwork {
+    background-image: url(../img/backgrounds/woodwork.jpg);
+  }
+
+  .bg-woodwork-2 {
+    background-image: url(../img/backgrounds/woodwork2.jpg);
+  }
+
+  .bg-woodwork-3 {
+    background-image: url(../img/backgrounds/wood-furniture.jpg);
+    animation-name: zoom-in;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes zoom-in {
+    50% {
+      background-size: 450%;
+    }
+  }
+
+  /*MENU TOGGLE*/
+  #menu-left-toggle,
+  #close-menu-left {
+    height: 6rem;
+    width: 6rem;
+    cursor: pointer;
+  }
+}
 
 /*XS BREAKPOINT*/
-
 @media screen and (min-width:380px) and (max-width:599px) {
-    html {
-        font-size: calc(var(--base-font-size)*.75);
-    }
-    section.about {
-        height: 50vh;
-        width: 100%;
-        margin-top: 25vh;
-        margin-bottom: 25vh;
-        position: relative;
-        overflow: hidden;
-    }
-    .col.d-sm-xs-none {
-        display: none;
-    }
-    .d-sm-xs-none {
-        display: none;
-    }
-    .bg-woods-shaving {
-        background-image: url(../img/backgrounds/wood_shaving.jpg);
-        position: relative;
-        right: -85vw
-    }
-    .bg-hammer {
-        background-image: url(../img/backgrounds/contract2.jpg);
-        position: relative;
-        left: -166vw
-    }
-    .bg-holding-tool {
-        background-image: url(../img/backgrounds/person_holding_tool.jpg);
-        position: relative;
-        right: -266vw
-    }
-    .bg-holding-tool iframe {
-        height: 100%;
-        width: 100%;
-    }
-    /*JUMBOTRON*/
-    .jumbotron {
-        height: 80vh;
-        width: 100%;
-        position: relative;
-        background-size: 310%;
-        background-position: center;
-        background-repeat: no-repeat;
-        perspective: 200px;
-        overflow: hidden;
-    }
-    .bg-woodwork {
-        background-image: url(../img/backgrounds/woodwork.jpg);
-    }
-    .bg-woodwork-2 {
-        background-image: url(../img/backgrounds/woodwork2.jpg);
-    }
-    .bg-woodwork-3 {
-        background-image: url(../img/backgrounds/wood-furniture.jpg);
-        animation-name: zoom-in;
-        animation-duration: 20s;
-        animation-timing-function: ease-in-out;
-    }
-    @keyframes zoom-in {
-        50% {
-            background-size: 350%;
-        }
-    }
-    /*MENU TOGGLE*/
-    #menu-left-toggle,
-    #close-menu-left {
-        height: 6rem;
-        width: 6rem;
-        cursor: pointer;
-    }
-}
+  html {
+    font-size: calc(var(--base-font-size)*.75);
+  }
 
+  section.about {
+    height: 50vh;
+    width: 100%;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .col.d-sm-xs-none {
+    display: none;
+  }
+
+  .d-sm-xs-none {
+    display: none;
+  }
+
+  .bg-woods-shaving {
+    background-image: url(../img/backgrounds/wood_shaving.jpg);
+    position: relative;
+    right: -85vw
+  }
+
+  .bg-hammer {
+    background-image: url(../img/backgrounds/contract2.jpg);
+    position: relative;
+    left: -166vw
+  }
+
+  .bg-holding-tool {
+    background-image: url(../img/backgrounds/person_holding_tool.jpg);
+    position: relative;
+    right: -266vw
+  }
+
+  .bg-holding-tool iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  /*JUMBOTRON*/
+  .jumbotron {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-size: 310%;
+    background-position: center;
+    background-repeat: no-repeat;
+    perspective: 200px;
+    overflow: hidden;
+  }
+
+  .bg-woodwork {
+    background-image: url(../img/backgrounds/woodwork.jpg);
+  }
+
+  .bg-woodwork-2 {
+    background-image: url(../img/backgrounds/woodwork2.jpg);
+  }
+
+  .bg-woodwork-3 {
+    background-image: url(../img/backgrounds/wood-furniture.jpg);
+    animation-name: zoom-in;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes zoom-in {
+    50% {
+      background-size: 350%;
+    }
+  }
+
+  /*MENU TOGGLE*/
+  #menu-left-toggle,
+  #close-menu-left {
+    height: 6rem;
+    width: 6rem;
+    cursor: pointer;
+  }
+}
 
 /*SM BREAKPOINT*/
-
 @media screen and (min-width:600px) and (max-width:960px) {
-    html {
-        font-size: calc(var(--base-font-size)*1);
-    }
-    section.about {
-        height: 80vh;
-        width: 100%;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
-        position: relative;
-        overflow: hidden;
-    }
-    .col.d-sm-xs-none {
-        display: none;
-    }
-    .d-sm-xs-none {
-        display: none;
-    }
-    .bg-woods-shaving {
-        background-image: url(../img/backgrounds/wood_shaving.jpg);
-        position: relative;
-        right: -85vw
-    }
-    .bg-hammer {
-        background-image: url(../img/backgrounds/contract2.jpg);
-        position: relative;
-        left: -166vw
-    }
-    .bg-holding-tool {
-        background-image: url(../img/backgrounds/person_holding_tool.jpg);
-        position: relative;
-        right: -266vw
-    }
-    .bg-holding-tool iframe {
-        height: 100%;
-        width: 100%;
-    }
-    /*JUMBOTRON*/
-    .jumbotron {
-        height: 80vh;
-        width: 100%;
-        position: relative;
-        background-size: 250%;
-        background-position: center;
-        background-repeat: no-repeat;
-        perspective: 200px;
-        overflow: hidden;
-    }
-    .bg-woodwork {
-        background-image: url(../img/backgrounds/woodwork.jpg);
-    }
-    .bg-woodwork-2 {
-        background-image: url(../img/backgrounds/woodwork2.jpg);
-    }
-    .bg-woodwork-3 {
-        background-image: url(../img/backgrounds/wood-furniture.jpg);
-        animation-name: zoom-in;
-        animation-duration: 20s;
-        animation-timing-function: ease-in-out;
-    }
-    @keyframes zoom-in {
-        50% {
-            background-size: 300%;
-        }
-    }
-    #menu-left-toggle,
-    #close-menu-left {
-        height: 6rem;
-        width: 6rem;
-        cursor: pointer;
-    }
-}
+  html {
+    font-size: calc(var(--base-font-size)*1);
+  }
 
+  section.about {
+    height: 80vh;
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .col.d-sm-xs-none {
+    display: none;
+  }
+
+  .d-sm-xs-none {
+    display: none;
+  }
+
+  .bg-woods-shaving {
+    background-image: url(../img/backgrounds/wood_shaving.jpg);
+    position: relative;
+    right: -85vw
+  }
+
+  .bg-hammer {
+    background-image: url(../img/backgrounds/contract2.jpg);
+    position: relative;
+    left: -166vw
+  }
+
+  .bg-holding-tool {
+    background-image: url(../img/backgrounds/person_holding_tool.jpg);
+    position: relative;
+    right: -266vw
+  }
+
+  .bg-holding-tool iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  /*JUMBOTRON*/
+  .jumbotron {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-size: 250%;
+    background-position: center;
+    background-repeat: no-repeat;
+    perspective: 200px;
+    overflow: hidden;
+  }
+
+  .bg-woodwork {
+    background-image: url(../img/backgrounds/woodwork.jpg);
+  }
+
+  .bg-woodwork-2 {
+    background-image: url(../img/backgrounds/woodwork2.jpg);
+  }
+
+  .bg-woodwork-3 {
+    background-image: url(../img/backgrounds/wood-furniture.jpg);
+    animation-name: zoom-in;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes zoom-in {
+    50% {
+      background-size: 300%;
+    }
+  }
+
+  #menu-left-toggle,
+  #close-menu-left {
+    height: 6rem;
+    width: 6rem;
+    cursor: pointer;
+  }
+}
 
 /*MD BREAKPOINT*/
-
 @media screen and (min-width:961px) and (max-width:1280px) {
-    html {
-        font-size: calc(var(--base-font-size)*1.5);
-    }
-    section.about {
-        height: 80vh;
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
-        position: relative;
-        overflow: hidden;
-    }
-    .bg-woods-shaving {
-        background-image: url(../img/backgrounds/wood_shaving.jpg);
-        position: relative;
-        right: -70vw
-    }
-    .bg-hammer {
-        background-image: url(../img/backgrounds/contract2.jpg);
-        position: relative;
-        left: -133vw
-    }
-    .bg-holding-tool {
-        background-image: url(../img/backgrounds/person_holding_tool.jpg);
-        position: relative;
-        right: -200vw
-    }
-    .bg-holding-tool iframe {
-        height: 100%;
-        width: 100%;
-    }
-    /*JUMBOTRON*/
-    .jumbotron {
-        height: 80vh;
-        width: 100%;
-        position: relative;
-        background-size: 150%;
-        background-position: center;
-        background-repeat: no-repeat;
-        perspective: 200px;
-        overflow: hidden;
-    }
-    .bg-woodwork {
-        background-image: url(../img/backgrounds/woodwork.jpg);
-    }
-    .bg-woodwork-2 {
-        background-image: url(../img/backgrounds/woodwork2.jpg);
-    }
-    .bg-woodwork-3 {
-        background-image: url(../img/backgrounds/wood-furniture.jpg);
-        animation-name: zoom-in;
-        animation-duration: 20s;
-        animation-timing-function: ease-in-out;
-    }
-    @keyframes zoom-in {
-        50% {
-            background-size: 200%;
-        }
-    }
-    /*MENU TOGGLE*/
-    #menu-left-toggle,
-    #close-menu-left {
-        display: none;
-    }
-}
+  html {
+    font-size: calc(var(--base-font-size)*1.5);
+  }
 
+  section.about {
+    height: 80vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .bg-woods-shaving {
+    background-image: url(../img/backgrounds/wood_shaving.jpg);
+    position: relative;
+    right: -70vw
+  }
+
+  .bg-hammer {
+    background-image: url(../img/backgrounds/contract2.jpg);
+    position: relative;
+    left: -133vw
+  }
+
+  .bg-holding-tool {
+    background-image: url(../img/backgrounds/person_holding_tool.jpg);
+    position: relative;
+    right: -200vw
+  }
+
+  .bg-holding-tool iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  /*JUMBOTRON*/
+  .jumbotron {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    perspective: 200px;
+    overflow: hidden;
+  }
+
+  .bg-woodwork {
+    background-image: url(../img/backgrounds/woodwork.jpg);
+  }
+
+  .bg-woodwork-2 {
+    background-image: url(../img/backgrounds/woodwork2.jpg);
+  }
+
+  .bg-woodwork-3 {
+    background-image: url(../img/backgrounds/wood-furniture.jpg);
+    animation-name: zoom-in;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes zoom-in {
+    50% {
+      background-size: 200%;
+    }
+  }
+
+  /*MENU TOGGLE*/
+  #menu-left-toggle,
+  #close-menu-left {
+    display: none;
+  }
+}
 
 /*LG BREAKPOINT*/
-
 @media screen and (min-width:1280px) {
-    html {
-        font-size: calc(var(--base-font-size)*2);
+  html {
+    font-size: calc(var(--base-font-size)*2);
+  }
+
+  section.about {
+    height: 80vh;
+    width: 80%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+  }
+
+  .bg-woods-shaving {
+    background-image: url(../img/backgrounds/wood_shaving.jpg);
+    position: relative;
+    right: -50vw
+  }
+
+  .bg-hammer {
+    background-image: url(../img/backgrounds/contract2.jpg);
+    position: relative;
+    left: -100vw
+  }
+
+  .bg-holding-tool {
+    background-image: url(../img/backgrounds/person_holding_tool.jpg);
+    position: relative;
+    right: -150vw
+  }
+
+  .bg-holding-tool iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  /*JUMBOTRON*/
+  .jumbotron {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    perspective: 200px;
+    overflow: hidden;
+  }
+
+  .bg-woodwork {
+    background-image: url(../img/backgrounds/woodwork.jpg);
+  }
+
+  .bg-woodwork-2 {
+    background-image: url(../img/backgrounds/woodwork2.jpg);
+  }
+
+  .bg-woodwork-3 {
+    background-image: url(../img/backgrounds/wood-furniture.jpg);
+    animation-name: zoom-in;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes zoom-in {
+    50% {
+      background-size: 150%;
     }
-    section.about {
-        height: 80vh;
-        width: 80%;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
-        margin-left: 10%;
-        margin-right: 10%;
-        position: relative;
-    }
-    .bg-woods-shaving {
-        background-image: url(../img/backgrounds/wood_shaving.jpg);
-        position: relative;
-        right: -50vw
-    }
-    .bg-hammer {
-        background-image: url(../img/backgrounds/contract2.jpg);
-        position: relative;
-        left: -100vw
-    }
-    .bg-holding-tool {
-        background-image: url(../img/backgrounds/person_holding_tool.jpg);
-        position: relative;
-        right: -150vw
-    }
-    .bg-holding-tool iframe {
-        height: 100%;
-        width: 100%;
-    }
-    /*JUMBOTRON*/
-    .jumbotron {
-        height: 80vh;
-        width: 100%;
-        position: relative;
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        perspective: 200px;
-        overflow: hidden;
-    }
-    .bg-woodwork {
-        background-image: url(../img/backgrounds/woodwork.jpg);
-    }
-    .bg-woodwork-2 {
-        background-image: url(../img/backgrounds/woodwork2.jpg);
-    }
-    .bg-woodwork-3 {
-        background-image: url(../img/backgrounds/wood-furniture.jpg);
-        animation-name: zoom-in;
-        animation-duration: 20s;
-        animation-timing-function: ease-in-out;
-    }
-    @keyframes zoom-in {
-        50% {
-            background-size: 150%;
-        }
-    }
-    #menu-left-toggle,
-    #close-menu-left {
-        display: none;
-    }
+  }
+
+  #menu-left-toggle,
+  #close-menu-left {
+    display: none;
+  }
 }
 
-
 /* ANIMATION */
-
 #repair-icon {
-    background-color: var(--var-white);
-    padding: 2rem;
-    height: 10rem;
-    width: 10rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    cursor: pointer;
-    animation-name: translate;
-    animation-duration: 10s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    position: absolute;
-    right: 2rem;
-    top: 25rem;
-    z-index: 5000;
+  background-color: var(--var-white);
+  padding: 2rem;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  animation-name: translate;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  position: absolute;
+  right: 2rem;
+  top: 25rem;
+  z-index: 5000;
 }
 
 #repair-icon img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 #portfolio {
-    background-color: var(--var-white);
-    padding: 2rem;
-    height: 10rem;
-    width: 10rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    cursor: pointer;
-    animation-name: translate-bottom;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    position: absolute;
-    right: 2rem;
-    top: 10rem;
-    z-index: 5000;
+  background-color: var(--var-white);
+  padding: 2rem;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  animation-name: translate-bottom;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  position: absolute;
+  right: 2rem;
+  top: 10rem;
+  z-index: 5000;
 }
 
 #portfolio img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 @keyframes translate {
-    50% {
-        transform: translateX(-60vw) rotate(-30deg);
-    }
+  50% {
+    transform: translateX(-60vw) rotate(-30deg);
+  }
 }
 
 @keyframes translate-bottom {
-    50% {
-        transform: translateY(25vh);
-    }
+  50% {
+    transform: translateY(25vh);
+  }
 }
 
 #value-proposition {
-    height: 80%;
-    width: 75%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25%;
+  height: 80%;
+  width: 75%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25%;
 }
 
 #value-proposition h1 {
-    font-size: 0;
-    width: 0;
-    transition: all 1s ease-in;
+  font-size: 0;
+  width: 0;
+  transition: all 1s ease-in;
 }
 
-
 /*MENU LEFT TOGGLE*/
-
 #menu-left {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 80vh;
-    width: 0;
-    background-color: var(--var-frost);
-    color: var(--var-black);
-    z-index: 80000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: width 1s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80vh;
+  width: 0;
+  background-color: var(--var-frost);
+  color: var(--var-black);
+  z-index: 80000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: width 1s ease-in-out;
 }
 
 #menu-left ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
 }
 
 #menu-left ul a {
-    color: #000;
-    font-size: 0;
+  color: #000;
+  font-size: 0;
 }
 
 #close-menu-left {
-    filter: brightness(0%);
-    align-self: flex-end;
-    margin-top: 2rem;
-    margin-right: 2rem;
-    transform: rotate(45deg);
+  filter: brightness(0%);
+  align-self: flex-end;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  transform: rotate(45deg);
 }
 
-
 /*BODY PAGE SPECIFIC*/
-
 .welcome {
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
 
 .welcome header {
-    height: 80%;
-    width: 100%
+  height: 80%;
+  width: 100%
 }
 
 .bg-hammer.about li {
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
 .bg-hammer.about li:hover {
-    box-shadow: inset 0 -200px 0 0 var(--var-nightfall);
-    transition: box-shadow .5s ease-in;
-    color: var(--var-white)
+  box-shadow: inset 0 -200px 0 0 var(--var-nightfall);
+  transition: box-shadow .5s ease-in;
+  color: var(--var-white)
 }
 
-
 /*MODAL CHAT BOT */
-
 #chat-bot {
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    height: 0;
-    width: 25rem;
-    background-color: var(--var-white);
-    box-shadow: 0px 0px 32px -10px rgba(36, 36, 36, 1);
-    transition: height 1s ease-in-out;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  height: 0;
+  width: 25rem;
+  background-color: var(--var-white);
+  box-shadow: 0px 0px 32px -10px rgba(36, 36, 36, 1);
+  transition: height 1s ease-in-out;
 }
 
 #chat-bot .header {
-    height: 25%;
-    background-color: #50BFE6;
+  height: 25%;
+  background-color: #50BFE6;
 }
 
 #chat-bot .body {
-    height: 50%;
-    background-color: #F9F9F9;
+  height: 50%;
+  background-color: #F9F9F9;
 }
 
 #chat-bot .footer {
-    height: 25%;
-    background-color: #FFF;
+  height: 25%;
+  background-color: #FFF;
 }
 
 #chat-bot .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
 }
 
 #chat-bot .footer {
-    justify-content: center;
+  justify-content: center;
 }
 
 #chat-bot .body {
-    justify-content: space-evenly;
-    display: block;
-    overflow-y: scroll;
+  justify-content: space-evenly;
+  display: block;
+  overflow-y: scroll;
 }
 
 #chat-bot label,
 #chat-bot input,
 .link-advise a {
-    font-size: 1rem;
-    width: 100%;
-    -webkit-appearance: none;
-    outline: 0;
-    color: var(--var-black);
+  font-size: 1rem;
+  width: 100%;
+  -webkit-appearance: none;
+  outline: 0;
+  color: var(--var-black);
 }
 
 .link-advise {
-    flex-direction: column;
-    list-style-type: circle;
+  flex-direction: column;
+  list-style-type: circle;
 }
 
 .link-advise li {
-    margin-left: .5rem;
+  margin-left: .5rem;
 }
 
 .link-advise a:hover {
-    color: var(--var-dark);
+  color: var(--var-dark);
 }
 
 #chat-bot #minus,
 #chat-bot #close {
-    height: 1rem;
-    width: 1rem;
-    cursor: pointer;
+  height: 1rem;
+  width: 1rem;
+  cursor: pointer;
 }
 
 #chat-bot #minus {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 #chat-bot #close {
-    position: absolute;
-    top: 1rem;
-    right: 4rem;
+  position: absolute;
+  top: 1rem;
+  right: 4rem;
 }
 
 .message-chat {
-    height: fit-content;
-    width: 70%;
-    margin: 2rem;
-    border-radius: 3rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2rem;
+  height: fit-content;
+  width: 70%;
+  margin: 2rem;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
 }
 
 .message-chat:nth-child(odd) {
-    background-color: rgba(80, 190, 230, 0.5);
+  background-color: rgba(80, 190, 230, 0.5);
 }
 
 .message-chat:nth-child(even) {
-    background-color: var(--var-primary-light);
+  background-color: var(--var-primary-light);
 }
 
 #question {
-    height: 8rem;
-    width: 8rem;
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    display: none;
-    cursor: pointer;
+  height: 8rem;
+  width: 8rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: none;
+  cursor: pointer;
 }
 
 .icon-message-send {
-    height: 1rem;
-    width: 1rem;
+  height: 1rem;
+  width: 1rem;
 }
 
 #message-send {
-    background-color: var(--var-white);
-    border: none;
+  background-color: var(--var-white);
+  border: none;
 }
 
-
 /* TEXT */
-
+h1{
+  color: var(--var-frost);
+}
 h3 {
-    color: var(--var-bark)
+  color: var(--var-bark)
 }
 
 p {
-    color: var(--var-nightfall)
+  color: var(--var-nightfall)
 }

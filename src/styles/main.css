@@ -1869,8 +1869,8 @@ input {
   .d-sm-xs-none {
     display: none;
   } */
-  /*JUMBOTRON*/
-  /* .jumbotron {
+                        /*JUMBOTRON*/
+                        /* .jumbotron {
     height: 80vh;
     width: 100%;
     position: relative;
@@ -1880,11 +1880,11 @@ input {
     perspective: 200px;
     overflow: hidden;
   } */
-}
+                    }
+                    /*XS BREAKPOINT*/
 
-/*XS BREAKPOINT*/
-@media screen and (min-width:380px) and (max-width:599px) {
-  /* html {
+                    @media screen and (min-width:380px) and (max-width:599px) {
+                        /* html {
     font-size: calc(var(--base-font-size)*.75);
   }
 
@@ -1895,8 +1895,8 @@ input {
   .d-sm-xs-none {
     display: none;
   } */
-  /*JUMBOTRON*/
-  /* .jumbotron {
+                        /*JUMBOTRON*/
+                        /* .jumbotron {
     height: 80vh;
     width: 100%;
     position: relative;
@@ -1906,11 +1906,11 @@ input {
     perspective: 200px;
     overflow: hidden;
   } */
-}
+                    }
+                    /*SM BREAKPOINT*/
 
-/*SM BREAKPOINT*/
-@media screen and (min-width:600px) and (max-width:960px) {
-  /* html {
+                    @media screen and (min-width:600px) and (max-width:960px) {
+                        /* html {
     font-size: calc(var(--base-font-size)*1);
   }
 
@@ -1921,8 +1921,8 @@ input {
   .d-sm-xs-none {
     display: none;
   } */
-  /*JUMBOTRON*/
-  /* .jumbotron {
+                        /*JUMBOTRON*/
+                        /* .jumbotron {
     height: 80vh;
     width: 100%;
     position: relative;
@@ -1932,15 +1932,15 @@ input {
     perspective: 200px;
     overflow: hidden;
   } */
-}
+                    }
+                    /*MD BREAKPOINT*/
 
-/*MD BREAKPOINT*/
-@media screen and (min-width:961px) and (max-width:1280px) {
-  /* html {
+                    @media screen and (min-width:961px) and (max-width:1280px) {
+                        /* html {
     font-size: calc(var(--base-font-size)*1.5);
   } */
-  /*JUMBOTRON*/
-  /* .jumbotron {
+                        /*JUMBOTRON*/
+                        /* .jumbotron {
     height: 80vh;
     width: 100%;
     position: relative;
@@ -1950,15 +1950,15 @@ input {
     perspective: 200px;
     overflow: hidden;
   } */
-}
+                    }
+                    /*LG BREAKPOINT*/
 
-/*LG BREAKPOINT*/
-@media screen and (min-width:1280px) {
-  /* html {
+                    @media screen and (min-width:1280px) {
+                        /* html {
     font-size: calc(var(--base-font-size)*2);
   } */
-  /*JUMBOTRON*/
-  /* .jumbotron {
+                        /*JUMBOTRON*/
+                        /* .jumbotron {
     height: 80vh;
     width: 100%;
     position: relative;

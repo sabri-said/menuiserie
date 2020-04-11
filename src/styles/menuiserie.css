@@ -1436,6 +1436,36 @@ footer ul li p {
     margin-left: 5rem;
 }
 
+.m-6 {
+    margin: 6rem;
+}
+
+.ml-6 {
+    margin-left: 6rem;
+}
+
+.mr-6 {
+    margin-right: 6rem;
+}
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.mb-6 {
+    margin-bottom: 6rem;
+}
+
+.my-6 {
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+
+.mx-6 {
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
 .my-auto {
     margin-top: auto;
     margin-bottom: auto;
@@ -1917,7 +1947,7 @@ button:hover {
 .form-item-inline {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
 }
 
@@ -2017,6 +2047,7 @@ input {
 
 .bg-contact {
     background-image: url(../img/backgrounds/bg-contact.jpg);
+    height: 100vh;
 }
 
 .bg-carmel-river-coffee-table,

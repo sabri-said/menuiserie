@@ -856,7 +856,8 @@ h1 {
 }
 
 h3 {
-  color: var(--var-bark)
+  color: var(--var-bark);
+  font-weight: 600;
 }
 
 div>h2 {
@@ -864,11 +865,18 @@ div>h2 {
   top: -4rem;
   left: 30rem;
 }
+
+/* PARAGRAPH */
+p {
+  font-weight: 300;
+}
+
 p.text-justify.relative {
   color: var(--var-frost);
   padding-right: 70rem;
   left: 65rem;
 }
-p {
-  color: var(--var-nightfall)
+
+p.mx-2.pt-2.text-justify {
+  color: var(--var-nightfall);
 }

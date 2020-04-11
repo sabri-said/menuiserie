@@ -1999,7 +1999,8 @@ input {
 .bg-woods-shaving,
 .bg-hammer,
 .bg-holding-tool,
-.bg-wood {
+.bg-wood,
+.bg-contact {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2012,6 +2013,10 @@ input {
 
 .bg-painting {
     background-image: url(../img/backgrounds/painting.jpg);
+}
+
+.bg-contact {
+    background-image: url(../img/backgrounds/bg-contact.jpg);
 }
 
 .bg-carmel-river-coffee-table,

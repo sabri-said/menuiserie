@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Antoine LE GUILLOU">
-    <meta name="description" content="">
+    <meta name="description" content="Monbeaumeuble menuisier de père en fils depuis 1924">
     <title>Menuiserie</title>
     <!--JQUERY CDN-->
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
@@ -18,153 +19,145 @@
     <script src="src/js/translateOnSroll.js"></script>
     <script src="src/js/menuLeftToggle.js"></script>
     <script src="src/js/chatBotModal.js"></script>
-  </head>
-  <title>Monbeaumeuble: menuisier de père en fils depuis 1924</title>
-  </head>
+</head>
+<title>Monbeaumeuble: menuisier de père en fils depuis 1924</title>
+</head>
 
-  <body class="welcome">
+<body class="welcome">
 
     <header>
-      <nav>
-        <ul>
-          <li class="d-sm-xs-none"><a>Accueil</a></li>
-          <li><img src="src/img/icons/burger_menu_dark_icon.png" alt="menu icon" id="menu-left-toggle"></li>
-        </ul>
-        <ul class="d-sm-xs-none">
-          <li><a href="presentation.html">A propos</a></li>
-          <li><a>Réalisations</a></li>
-          <li><a>Prestations</a></li>
-        </ul>
-      </nav>
-      <section class="jumbotron bg-woodwork-3">
-        <div class="bg-white-overlay-medium h-100 w-100">
-          <div id="repair-icon">
-            <img src="src/img/icons/repair.png" alt="repair icon">
-            <p class="mt-1">Contact</p>
-          </div>
-          <div id="portfolio">
-            <img src="src/img/icons/portfolio.png" alt="portfolio">
-            <p class="mt-1">Portfolio</p>
-          </div>
-          <div class="row no-wrap">
-            <div class="col align-items-center justify-center w-200">
-              <div id="value-proposition">
-                <h1>Monbeaumeuble&copy;: menuisier de père en fils depuis 1924</h1>
-              </div>
+        <nav>
+            <ul>
+                <li class="d-sm-xs-none"><a href="accueil.html">Accueil</a></li>
+                <li><img src="src/img/icons/burger_menu_dark_icon.png" alt="menu icon" id="menu-left-toggle"></li>
+            </ul>
+            <ul class="d-sm-xs-none">
+                <li><a href="presentation.html">A propos</a></li>
+                <li><a href="entreprise.html">L'entreprise</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="jumbotron bg-woodwork-3">
+            <div class="bg-white-overlay-medium h-100 w-100">
+                <div id="repair-icon">
+                    <img src="src/img/icons/repair.png" alt="repair icon">
+                    <p class="mt-1">Contact</p>
+                </div>
+                <div id="portfolio">
+                    <img src="src/img/icons/portfolio.png" alt="portfolio">
+                    <p class="mt-1">Portfolio</p>
+                </div>
+                <div class="row no-wrap">
+                    <div class="col align-items-center justify-center w-200">
+                        <div id="value-proposition">
+                            <h1>Monbeaumeuble&copy;: menuisier de père en fils depuis 1924</h1>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="absolute-bottom col  w-25 h-75 justify-center d-sm-xs-none">
+                    <div class="card"><i class="fas fa-coins fa-4x"></i>
+                        <p class="my-1">Excellent rapport qualité prix</p>
+                    </div>
+                    <div class="card"><i class="far fa-smile-wink fa-4x"></i>
+                        <p class="my-1">Satisfait ou remboursé</p>
+                    </div>
+                    <div class="card"><i class="fas fa-house-damage fa-4x"></i>
+                        <p class="my-1">Intervention à domicile</p>
+                    </div>
+                </div>
             </div>
-            <div class="col"></div>
-          </div>
-          <div class="absolute-bottom col  w-25 h-75 justify-center d-sm-xs-none">
-            <div class="card"><i class="fas fa-coins fa-4x"></i>
-              <p class="my-1">Excellent rapport qualité prix</p>
-            </div>
-            <div class="card"><i class="far fa-smile-wink fa-4x"></i>
-              <p class="my-1">Satisfait ou remboursé</p>
-            </div>
-            <div class="card"><i class="fas fa-house-damage fa-4x"></i>
-              <p class="my-1">Intervention à domicile</p>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
     </header>
     <section id="menu-left">
-      <img src="src/img/icons/close_modal.png" alt="close menu icon" id="close-menu-left">
-      <ul>
-        <li><a href="presentation.html">A propos</a></li>
-        <li><a>Réalisations</a></li>
-        <li><a>Prestations</a></li>
-        <li><a>Contact</a></li>
-      </ul>
+        <img src="src/img/icons/close_modal.png" alt="close menu icon" id="close-menu-left">
+        <ul>
+            <li><a href="presentation.html">A propos</a></li>
+            <li><a href="entreprise.html">L'entreprise</a></li>
+            <li><a href="realisations.html">Réalisations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </section>
     <section id="chat-bot">
-      <div class="header row no-wrap relative align-items-end">
-        <img src="src/img/icons/close.png" alt="" id="close">
-        <img src="src/img/icons/minus.png" alt="" id="minus">
-        <p class="text-white mb-1 ml-1">Bonjour ! je suis ici pour vous aider...</p>
-      </div>
-      <div class="body">
-      </div>
-      <div class="footer">
-        <div class="form-group w-90">
-          <label for="user_message">Entrez votre message</label>
-          <div class="row no-wrap">
-            <input type="text" name="user_message" id="user_message">
-            <button id="message-send"><img src="src/img/icons/paper-plane.png" class="icon-message-send"></button>
-          </div>
-          </form>
+        <div class="header row no-wrap relative align-items-end">
+            <img src="src/img/icons/close.png" alt="" id="close">
+            <img src="src/img/icons/minus.png" alt="" id="minus">
+            <p class="text-white mb-1 ml-1">Bonjour ! je suis ici pour vous aider...</p>
         </div>
-      </div>
+        <div class="body">
+
+        </div>
+        <div class="footer">
+            <div class="form-group w-90">
+                <label for="user_message">Entrez votre message</label>
+                <div class="row no-wrap">
+                    <input type="text" name="user_message" id="user_message">
+                    <button id="message-send"><img src="src/img/icons/paper-plane.png" class="icon-message-send"></button>
+                </div>
+                </form>
+            </div>
+        </div>
     </section>
     <img src="src/img/icons/question.png" id="question">
 
     <footer class="bg-wood row no-wrap">
-      <div class="col">
-        <ul>
-          <li>
-            <p>liens utiles</p>
-          </li>
-          <li>
-            <a>lorem</a>
-          </li>
-          <li>
-            <a>Ipsum</a>
-          </li>
-          <li>
-            <a>Dolor</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col">
-        <ul>
-          <li>
-            <p>Monbeaumeuble</p>
-          </li>
-          <li>
-            <a href="presentation.html">A propos</a>
-          </li>
-          <li>
-            <a>Réalisations</a>
-          </li>
-          <li>
-            <a>Prestations</a>
-          </li>
-        </ul>
-      </div>
-      <div class="row w-50">
-        <ul>
-          <li>
-            <a><i class="fab fa-facebook"></i></a>
-            <p>Facebook</p>
-          </li>
-          <li>
-            <a><i class="fab fa-github "></i></a>
-            <p>Github</p>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a> <i class="fab fa-twitter "></i></a>
-            <p>Twitter</p>
-          </li>
-          <li>
-            <a><i class="fab fa-instagram "></i></a>
-            <p>Instagram</p>
-          </li>
-        </ul>
-      </div>
-      <div class="col">
-        <p>Monbeaumeuble&copy;</p>
-      </div>
+        <div class="col">
+            <ul>
+                <li>
+                    <p>Partenaires</p>
+                </li>
+                <li>
+                    <a href="https://stootie.com/">Stootie</a>
+                </li>
+                <li>
+                    <a href="https://www.leboncoin.fr/">Leboncoin</a>
+                </li>
+                <li>
+                    <a href="https://www.allovoisins.com/">Dolor</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                <li>
+                    <p>Monbeaumeuble</p>
+                </li>
+                <li><a href="presentation.html">A propos</a></li>
+                <li><a href="entreprise.html">L'entreprise</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="row w-50">
+            <ul>
+                <li>
+                    <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+                    <p>Facebook</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="http://twitter.com"> <i class="fab fa-twitter "></i></a>
+                    <p>Twitter</p>
+                </li>
+                <li>
+                    <a href="http://instagram.com"><i class="fab fa-instagram "></i></a>
+                    <p>Instagram</p>
+                </li>
+            </ul>
+        </div>
+        <div class="col">
+            <p>Monbeaumeuble&copy;</p>
+        </div>
     </footer>
     <script>
-    window.load = valuePropositionAppear();
-    menuLeftToggle();
-    displayChatBox();
-    chatBotInteraction()
-
+        window.load = valuePropositionAppear();
+        menuLeftToggle();
+        displayChatBox();
+        chatBotInteraction();
     </script>
 
-  </body>
+</body>
 
 </html>
